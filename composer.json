@@ -1,0 +1,12 @@
+{
+	"name": "",
+	"authors": [
+		{
+			"name": "",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"google/apiclient": "2.15.0"
+	}
+}
