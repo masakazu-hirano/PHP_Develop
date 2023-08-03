@@ -15,21 +15,21 @@ version: '3.8'
 
 services:
   "サービス名":
-  container_name: "コンテナ名"
-  image: "Docker イメージ名"
-  build:
-    context: .
-  volumes:
-    - .:/usr/local/src:delegated
-  deploy:
-    resources:
-      limits:
-        cpus: '4.0'
-        memory: 2gb
-      reservations:
-        cpus: '1.0'
-        memory: 1gb
-  tty: true
+    container_name: "コンテナ名"
+    image: "Docker イメージ名"
+    build:
+      context: .
+    volumes:
+      - .:/usr/local/src:delegated
+    deploy:
+      resources:
+        limits:
+          cpus: '4.0'
+          memory: 2gb
+        reservations:
+          cpus: '1.0'
+          memory: 1gb
+    tty: true
 ```
 
 #### ■ Dockerfile 定義
